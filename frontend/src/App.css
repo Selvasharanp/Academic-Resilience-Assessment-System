@@ -1,0 +1,86 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    background-color: #f8fafc; /* Soft off-white */
+    font-family: 'Inter', sans-serif;
+    color: #1e293b;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.card {
+    border: none !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #4f46e5 !important; /* Modern Indigo */
+    border: none !important;
+    padding: 10px 24px !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #4f46e5 !important;
+}
+
+.stat-card {
+    background: white;
+    padding: 1.5rem;
+    border-left: 5px solid #4f46e5;
+}
+
+/* Update your App.css with these modern styles */
+.dashboard-container {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    min-height: 100vh;
+}
+
+.metric-card {
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.nav-pills .nav-link {
+    color: #64748b;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #4f46e5 !important;
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3);
+}
+
+.chart-container {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
