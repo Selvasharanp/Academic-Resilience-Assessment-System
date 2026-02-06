@@ -24,6 +24,7 @@ const assessmentRoutes = require('./routes/assessment');
 // This maps your route files to specific URL paths
 app.use('/api/auth', authRoutes);
 app.use('/api/assessment', assessmentRoutes);
+app.use('/api/scenario', require('./routes/scenario'));
 
 // 4. Base Route for Testing
 app.get('/', (req, res) => {
